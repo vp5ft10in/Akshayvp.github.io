@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Your Name | Portfolio</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f5f7fa;
+    color:#333;
+    line-height:1.6;
+}
+
+header{
+    background:#1f2937;
+    color:white;
+    text-align:center;
+    padding:80px 20px;
+}
+
+.profile-img{
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    object-fit:cover;
+    border:5px solid white;
+    margin-bottom:20px;
+}
+
+header h1{
+    font-size:2.8rem;
+}
+
+header p{
+    margin-top:10px;
+    font-size:1.2rem;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:20px;
+    background:#2563eb;
+    color:white;
+    padding:12px 25px;
+    text-decoration:none;
+    border-radius:5px;
+}
+
+.container{
+    width:90%;
+    max-width:1100px;
+    margin:auto;
+    padding:60px 0;
+}
+
+section{
+    margin-bottom:60px;
+}
+
+h2{
+    color:#1f2937;
+    margin-bottom:20px;
+    border-left:5px solid #2563eb;
+    padding-left:15px;
+}
+
+.card{
+    background:white;
+    padding:25px;
+    border-radius:10px;
+    margin-bottom:20px;
+    box-shadow:0 2px 10px rgba(0,0,0,0.1);
+}
+
+.skills{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+}
+
+.skill{
+    background:#2563eb;
+    color:white;
+    padding:8px 15px;
+    border-radius:20px;
+}
+
+.contact a{
+    color:#2563eb;
+    text-decoration:none;
+}
+
+footer{
+    background:#1f2937;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+@media(max-width:768px){
+    header h1{
+        font-size:2rem;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <img src="profile.jpg" alt="Profile Photo" class="profile-img">
+
+    <h1>Your Name</h1>
+
+    <p>Customer Relationship Officer | Healthcare Assistant | Site Engineer</p>
+
+    <a href="resume.pdf" class="btn" download>
+        Download CV
+    </a>
+</header>
+
+<div class="container">
+
+<section>
+    <h2>About Me</h2>
+
+    <div class="card">
+        <p>
+            Experienced professional with strong skills in customer service,
+            administration, healthcare support, and project coordination.
+            Passionate about delivering high-quality service and contributing
+            to organizational success.
+        </p>
+    </div>
+</section>
+
+<section>
+    <h2>Work Experience</h2>
+
+    <div class="card">
+        <h3>Customer Relationship Officer</h3>
+        <p><strong>Company Name</strong> | 2022 - Present</p>
+        <ul>
+            <li>Managed customer enquiries and complaints.</li>
+            <li>Maintained accurate records and documentation.</li>
+            <li>Improved customer satisfaction through effective communication.</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h3>Healthcare Assistant</h3>
+        <p><strong>Care Home/Hospital</strong></p>
+        <ul>
+            <li>Provided personal care support.</li>
+            <li>Maintained patient dignity and wellbeing.</li>
+            <li>Worked collaboratively with healthcare teams.</li>
+        </ul>
+    </div>
+</section>
+
+<section>
+    <h2>Skills</h2>
+
+    <div class="skills">
+        <span class="skill">Customer Service</span>
+        <span class="skill">Communication</span>
+        <span class="skill">Healthcare Support</span>
+        <span class="skill">MS Office</span>
+        <span class="skill">Documentation</span>
+        <span class="skill">Problem Solving</span>
+        <span class="skill">Teamwork</span>
+        <span class="skill">Leadership</span>
+    </div>
+</section>
+
+<section>
+    <h2>Education</h2>
+
+    <div class="card">
+        <h3>Bachelor of Computer Applications (BCA)</h3>
+        <p>Mahatma Gandhi University, Kerala, India</p>
+        <p>2012 – 2015</p>
+    </div>
+</section>
+
+<section>
+    <h2>Certifications</h2>
+
+    <div class="card">
+        <ul>
+            <li>Manual Handling</li>
+            <li>Basic Life Support</li>
+            <li>Health & Safety Training</li>
+            <li>Customer Service Certification</li>
+        </ul>
+    </div>
+</section>
+
+<section class="contact">
+    <h2>Contact</h2>
+
+    <div class="card">
+        <p>Email: your.email@example.com</p>
+        <p>Phone: +971 XX XXX XXXX</p>
+        <p>LinkedIn:
+            <a href="#">linkedin.com/in/yourprofile</a>
+        </p>
+    </div>
+</section>
+
+</div>
+
+<footer>
+    <p>© 2026 Your Name. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
